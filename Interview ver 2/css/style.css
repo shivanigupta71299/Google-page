@@ -1,0 +1,121 @@
+#container{
+    text-align: center;
+    position: relative;
+    font-family: arial,sans-serif;
+}
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-items: center;
+}
+.abc{
+   
+    margin: 4px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px ;
+    line-height: 24px;
+}
+.abc:hover{
+    text-decoration: 1px underline;
+}
+.menu{
+    width:20px;
+}
+#SignInButton{
+    background-color: rgb(88, 88, 236);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    width:90px;
+    border: 0px;
+    color: white;
+    height: 40px;
+    margin: 7px;
+    margin-left: 25px;
+}
+.searchbar{
+    height: 40px;
+    border: 1px solid #dfe1e5;
+    display: inline-block; 
+    border-radius:24px; 
+}
+.searchImg{
+    width: 21px;
+    margin-left: 10px;
+    margin-right: -3px;
+    margin-top: 10px;
+    margin-bottom: -4px;
+}
+.mic{
+    width: 21px;
+    margin-left: -3px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: -4px;
+}
+.googleimg{
+    margin-top: 44px;
+    margin-bottom: 10px;
+}
+.text{
+    height: 32px;
+    border: 0;
+    width: 510px;
+}
+.b1{
+    border: 0px;
+    border-radius: 4px;
+    margin: 30px 4px;
+    padding: 10px 15px;
+    text-align: center;
+}
+.langs{
+    font-size: small;
+}
+.langs a{
+    margin: 5px;
+}
+footer{
+    background-color: #dadce0;
+margin-top: 215px;
+}
+footer div{
+    background-color: #dadce0;
+}
+footer h4{
+    color: #70757a;
+    font-size:15px;
+    /* padding-left: 30px; */
+    background-color:1px solid #dadce0;
+    position: absolute;
+    left: 0;
+    padding: 15px 30px;
+    bottom: 0em;
+}
+footer div div a{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    color: #70757a;
+    display: inline-block;
+    padding: 12px 12px;
+    font-size: 14px;
+text-decoration: none;
+}
+footer div div a:hover{
+    text-decoration: underline;
+}
+.link{
+    border-top: 1px solid #c9cbcf;
+    display: flex;
+}
+.l1{
+    /* padding-left: 10px; */
+    flex: 1;
+}
+.l2{
+    padding-right: 10px;
+    flex: 1;
+}
